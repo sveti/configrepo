@@ -1,7 +1,5 @@
-my:
-  greeting: Hello darkness my old friend
 server:
-  port : 8080
+  port: 8080
 spring:
   datasource:
     url:jdbc:mysql://localhost:3306/adminication?createDatabaseIfNotExist=true
