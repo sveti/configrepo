@@ -1,9 +1,9 @@
 server:
   port: 8080
+
 spring:
   datasource:
-    url:jdbc:mysql://localhost:3306/adminication?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/adminication?createDatabaseIfNotExist=true
   username:
     root
-  password:
-   '#include<winuser.h>'
+  password: '#include<winuser.h>'
