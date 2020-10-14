@@ -1,2 +1,4 @@
 my:
   greeting: Hello darkness my old friend
+server:
+  port : 8080
