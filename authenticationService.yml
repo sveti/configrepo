@@ -3,6 +3,6 @@ server:
 
 spring:
   datasource:
-    jdbcUrl: jdbc:mysql://localhost:3306/adminication?createDatabaseIfNotExist=true
+    url: jdbc:mysql://localhost:3306/adminication?createDatabaseIfNotExist=true
     username: root
     password: '#include<winuser.h>'
