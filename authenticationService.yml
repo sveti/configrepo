@@ -7,4 +7,10 @@ spring:
     username: root
     password: "#include<winuser.h>"
 
-key: f54148
+security:
+  jwt:
+    uri: /authenticationService/**
+    header: Authorization
+    prefix: Bearer
+    expiration: 24*60*60
+    secret: f54148
